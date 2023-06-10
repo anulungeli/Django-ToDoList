@@ -3,4 +3,4 @@ RUN pip install django==3.2
 COPY . .
 RUN python manage.py migrate
 
-CMD "python","manage.py","172.0.0.1:8080"
+CMD "python","manage.py","172.0.0.1:8001"
